@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	margin: 50px auto;
+	background: #ddd;
+} 
+.container table {
+	padding-bottom: 30px;
+	width: 500px;
+	margin: 0 auto;
+	background: #eaeaea;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+	border: 1px solid blue;
+	line-height: auto;
+}
+table tr th{
+	background-color: blue;
+	padding: 5px 10px;
+
+}

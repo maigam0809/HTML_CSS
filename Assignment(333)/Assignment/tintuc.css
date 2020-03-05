@@ -1,0 +1,186 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-image: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/truong-dan-lap-ta-quang-buu-lien-cap-thcs-thpt-quan-hai-ba-trung-ha-noi.png");
+	background-size: 100% 100%;
+}
+.webpage {
+	max-width: 1200px;
+	margin: 0 auto; 
+}
+
+.webpage header {
+	background-image: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/banner.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 1px;
+	padding-bottom: 18%;
+	border: 1px solid black;
+}
+
+.webpage nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	background-color: orangered;
+	text-align: left;
+	font-size: 20px;
+}
+.webpage nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.webpage nav ul li a {
+	display: block;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	color: white;
+	padding: 0 10px;
+}
+
+.webpage nav ul li a:hover {
+	color: yellow;
+}
+
+.webpage nav ul ul {
+	z-index: 2;
+	position: absolute;
+	display: none;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	width: 150px;
+	background-color: #93b7c4;
+	box-shadow: 0 0 1px gray;
+}
+
+.webpage nav ul ul a{
+	display: block;
+	line-height: 30px;
+	color: orangered;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	padding: 0 10px;
+}
+.webpage nav ul li:hover ul {
+	display: block;
+}
+.webpage nav ul ul a:hover {
+	background-color: lightgray; 
+	color: white;
+}
+
+.language {
+	position: absolute;
+	top: 223px;
+	right: 240px;
+	display: block;
+	list-style: none;
+	border-radius: 3px;
+	text-align: right;
+	font-size: 20px;
+}
+
+.language a {
+	display: inline-block;
+	font-variant: small-caps;
+	text-decoration: none;
+	font-size: larger;
+	color: white;
+	line-height: 20px;	
+	padding: 0 10px;
+}
+
+.language a:hover {
+	color: yellow;
+}
+
+.webpage article{
+	min-height:600px;
+	width:100%;
+	background-color:white;
+	float:center;
+}
+
+.webpage article .form-1 {
+	max-width: 400px;
+    text-align: left;
+ 	padding-right: 20px;
+  	padding: 20px 30px;
+  	background: #d6f441;
+  	border-radius: 3px;
+  	font-size: 20px;
+}
+
+.webpage article .form-1 label {
+  	margin-bottom: 4px;
+}
+
+.webpage article .DOB {
+	width: 60px;
+	height: 30px;
+	margin: 4px;
+}
+
+.webpage article .formControl {
+	display: block;
+	width: 40%;
+	height: 20px;
+	font-size: 18px;
+}
+
+
+.webpage .formButton{
+	margin: 10px 0;
+	width: 40%;
+  	background-color: #4bc970;
+  	font-size: 18px;
+  	text-align: center;
+  	font-style: normal;
+  	border-radius: 5px;
+  	width: 100%;
+  	border: 1px solid #3ac162;
+  	border-width: 1px 1px 3px;
+  	box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  	margin-bottom: 10px;
+}
+
+.webpage article .form-2 {
+	max-width: 400px;
+	position: absolute;
+	top: 300px;
+	right: 300px;
+    text-align: left;
+ 	padding-right: 20px;
+  	padding: 20px 30px;
+  	background: #d6f441;
+  	border-radius: 3px;
+  	font-size: 20px;
+} 
+
+.webpage article .form-2 label {
+  	margin-bottom: 4px;
+}
+
+.webpage article .formControl2 {
+	display: block;
+	width: 60%;
+	height: 20px;
+	font-size: 18px;
+}
+
+.webpage footer {
+	background-color: #bec4c2;
+	border-top: 3px double orangered;
+	line-height: 50px;
+	font-family: Helvetica; 
+	text-align: center;
+	font-variant: small-caps;
+	clear: both;
+	text-align: center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <label for="hoten">Họ tên</label>
+        <input type="text" id="hoten">
+        <br>
+        <label for="">Mật khẩu</label>
+        <input type="password">
+        <br>
+        <label for="">Avatar</label>
+        <input type="file">
+        <br>
+        <!--Thẻ lựa chọn-->
+        <label for="">Quốc gia</label>
+        <select name="" id="">
+            <option value="1">Anh</option>
+            <option value="">Pháp</option>
+            <option value="">Việt nam</option>
+            <option value="">Thái lan</option>
+            <option value="">Nhật bản</option>
+            <option value="">Trung quốc</option>
+        </select>
+        <br>
+        <!--Danh sách-->
+        <select name="" id="" multiple=4>
+            <option value="1">Anh</option>
+            <option value="">Pháp</option>
+            <option value="">Việt nam</option>
+            <option value="">Thái lan</option>
+            <option value="">Nhật bản</option>
+            <option value="">Trung quốc</option>
+        </select>
+        <!--Gộp nhóm-->
+        <fieldset>
+            <legend>Sở thích</legend><!--Tiêu đề nhóm-->
+            Thể thao <input type="checkbox" name="sothich" id="">
+            <br>
+            Du lịch <input type="checkbox" name="sothich" id="">
+            <br>
+            Mua sắm <input type="checkbox" name="sothich" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Giới tính</legend>
+            Nam <input type="radio" name="gioitinh" id=""> 
+            Nữ <input type="radio" name="gioitinh" id="">
+        </fieldset>
+        <!--Nhập nhiều dòng văn bản-->
+        <label for="">Nội dung</label>
+        <br>
+        <textarea name="" id="" cols="50" rows="10"></textarea>
+        <br>
+        <!--nút-->
+        <input type="submit" value="Gửi dữ liệu">
+        <input type="reset" value="Làm lại">
+        <input type="button" value="Theo người dùng">
+    </form>
+</body>
+</html>

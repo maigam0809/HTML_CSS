@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>bài 2_lab09</title>
+	<link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+	<form>
+		<div class="form_ground">
+
+			<!-- họ và tên -->
+			<div class="form_group">
+				<label for="">Họ tên:</label>
+				<input type="text" id="hoten" class="form_control">
+			</div>
+
+			<!-- xét giới tính -->
+			<div class="form_group">
+				<label>Giới tính:</label>
+				<input type="radio" name="gioitinh" id="">Nam
+				<input type="radio" name="gioitinh" id="">Nữ
+			</div>
+
+			<!-- hình ảnh -->
+			<div class="form_group">
+				<label for="">Hình ảnh:</label>
+				<input type="file">
+			</div>
+
+			<!-- the lựa chọn -->
+			<div class="form_group">
+				<label for="">Quốc tịch</label>
+				<select name="" id="">
+					<option value="1">Unitates</option>
+					<option value="1">Việt Nam</option>
+					<option value="1">Lào</option>
+					<option value="1">Trung quốc</option>
+					<option value="1">Campuchia</option>
+					<option value="1">Thái Lan</option>
+					<option value="1">Nhật Bản</option>
+				</select>
+			</div>
+
+			<!-- Gộp nhóm -->
+			<div class="form_group">
+				<legend>Sở thích:</legend> <!-- tiêu đề nhóm -->
+				<input type="checkbox" name="sothich" id="">Thể Thao
+				<input type="checkbox" name="sothich" id="">Du Lịch
+				<input type="checkbox" name="sothich" id="">Âm nhạc
+				<input type="checkbox" name="sothich" id="">Ẩm thực
+			</div>
+
+			<!-- Nhập nhiều văn bản và nội dung -->
+			<div class="form_group">
+				<label for="">Ghi chú:</label>
+				<br>
+				<textarea name="" id="" cols="30" rows="7"></textarea>
+			</div>
+
+			<!-- nút-->
+			<div class="form_group">
+				<input type="submit" value="Đăng Ký">
+				<input type="reset" value="Làm lại">
+			</div>
+		</div>
+	</form>
+	
+</body>
+</html>

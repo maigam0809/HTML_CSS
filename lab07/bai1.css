@@ -1,0 +1,35 @@
+.menu_doc{
+	padding:0px;
+	margin:5px;
+	list-style: none;
+	border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.menu_doc a{
+    /*chỗ này nó k nhận icon*/
+	background-image: url(https://image.flaticon.com/icons/svg/422/422391.svg);
+     background-repeat: no-repeat; 
+    background-size: 10px;
+    background-position: 10px center;   
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color:orangered;
+    font-variant: small-caps;
+    font-size:larger;
+    text-decoration:none;
+    padding: 8px 5px 8px 30px;
+
+}
+.menu_doc a:hover{
+	background-image: url('https://image.flaticon.com/icons/png/512/2534/2534565.png');
+	 background-repeat: no-repeat; 
+    background-size: 10px;
+    background-position: 10px center; 
+    display:block;
+	border-bottom: 1px dotted white;
+    background-color: orangered;
+    color:white;
+    font-weight: bold;
+
+
+}

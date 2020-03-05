@@ -1,0 +1,159 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-image: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/truong-dan-lap-ta-quang-buu-lien-cap-thcs-thpt-quan-hai-ba-trung-ha-noi.png");
+	background-size: 100% 100%;
+}
+.webpage {
+	max-width: 1200px;
+	margin: 0 auto; 
+}
+
+.webpage header {
+	background-image: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/banner.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 1px;
+	padding-bottom: 18%;
+	border: 1px solid black;
+}
+
+.webpage header p {
+	background-color: lightgreen;
+	font-size:30px;
+	position: absolute;
+	top: 5px;
+}
+
+.webpage nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	background-color: orangered;
+	text-align: left;
+	font-size: 20px;
+}
+.webpage nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.webpage nav ul li a {
+	display: block;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	color: white;
+	padding: 0 10px;
+}
+
+.webpage nav ul li a:hover {
+	color: yellow;
+}
+
+.webpage nav ul ul {
+	position: absolute;
+	display: none;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	width: 150px;
+	background-color: white;
+	box-shadow: 0 0 1px gray;
+}
+
+.webpage nav ul ul a{
+	display: block;
+	line-height: 30px;
+	color: orangered;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	padding: 0 10px;
+}
+.webpage nav ul li:hover ul {
+	display: block;
+}
+.webpage nav ul ul a:hover {
+	background-color: lightgray; 
+	color: white;
+}
+
+.language {
+	position: absolute;
+	top: 223px;
+	right: 240px;
+	display: block;
+	list-style: none;
+	border-radius: 3px;
+	text-align: right;
+	font-size: 20px;
+}
+
+.language a {
+	display: inline-block;
+	font-variant: small-caps;
+	text-decoration: none;
+	font-size: larger;
+	color: white;
+	line-height: 20px;	
+	padding: 0 10px;
+}
+
+.language a:hover {
+	color: yellow;
+}
+
+.webpage article{
+	min-height:600px;
+	width:100%;
+	background-color:white;
+	float:center;
+}
+
+.column {
+	height: 100%;
+	right: 20px;
+	margin: 60px;
+	width: 20%;
+	float: left;
+	padding: 5px;
+	border: 1px solid gray;
+}
+
+.column img {
+	width: 90%;
+	height: 200px;
+}
+
+.column h4 {
+	padding: 5px;
+}
+
+.column h4 a {
+	color: black;
+	text-decoration: none;
+}
+
+.column h4 a:hover {
+	color: red;
+}
+
+.column h4 p {
+	padding: 3px;
+	text-align: justify;
+}
+
+
+.webpage footer {
+	background-color: #bec4c2;
+	border-top: 3px double orangered;
+	line-height: 50px;
+	font-family: Helvetica; 
+	text-align: center;
+	font-variant: small-caps;
+	clear: both;
+	text-align: center;
+}

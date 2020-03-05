@@ -1,0 +1,44 @@
+*{
+	margin:0px;
+	padding:0px;
+
+}
+.container{
+	max-width: 900px;
+	margin:auto;
+
+}
+header{
+	background: red;
+	height:90px;
+	line-height: center;
+	text-align: center;
+
+}
+nav{
+	height:40px;
+	background: blue;
+
+}
+article{
+	height: 400px;
+	background: pink;
+	width: 75%;
+	float:left;
+
+	
+}
+
+aside{
+	width:25%;
+	background: green;
+	height:400px;
+	float:right;
+
+}
+footer{
+	background: black;
+	height:80px;
+	clear:both;
+}
+

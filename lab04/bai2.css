@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+
+}
+img{
+	text-align: center;
+	width: 300px;
+}
+.menu>a{
+	font-variant: small-caps;
+	color:blue;
+	text-decoration: none;
+}
+a:link{
+	color:black;
+	text-decoration:none;
+}
+a:visited{
+	color:green;
+	text-decoration:none;
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+a:active{
+	color:orange;
+	text-decoration: underline;
+
+}

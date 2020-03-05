@@ -1,0 +1,81 @@
+/*reset tất cả các thẻ*/
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+max-width: 900px;
+margin: auto;
+ /*căn giữa màn hình*/
+}
+/*menu*/
+.menu_ngang{
+background-color: green;
+line-height: 40px;
+text-align:center;
+/*căn chỉnh màn hình ra giữa */
+}
+.menu_ngang ul li{
+	display:inline-block;
+	position:relative;
+}
+.menu_ngang ul li a{
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	padding:0 20px;
+}
+.menu_ngang ul li a:hover{
+	/*di chuyển vào menu*/
+	color:red;
+	background-color: orange;
+}
+/*menu cấp 2*/
+.menu_ngang ul ul {
+	display:none;
+	 /*ẩn menu cấp 2 đi*/
+	 width:135px;
+	 background: green;
+	 position:absolute; /*giữ menu con*/
+
+}
+.menu_ngang ul li:hover ul{
+	display:block;
+}
+.menu_ngang ul ul li{
+	width: 100%;
+}
+/*menu doc*/
+.menu_doc{
+	width:25%;
+	line-height: 45px;
+	background-color: orange;
+
+}
+.menu_doc ul{
+	list-style: none;
+
+}
+.menu_doc ul li{
+	border-bottom:1px solid #fff;
+
+}
+.menu_doc ul a{
+	color:#fff;
+	text-decoration:none;
+	display: block;
+	padding-left: 30px;
+	/*làm icon cho menu*/
+	background:url("anh/animal.png");
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.menu_doc ul li a:hover{
+	background-color: red;
+	background-image: url('anh/flowers.png');
+	background-repeat: no-repeat;
+	background-position: 10px center;
+
+}
+
+

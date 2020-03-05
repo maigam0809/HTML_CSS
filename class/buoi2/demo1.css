@@ -1,0 +1,16 @@
+
+h1,p{
+	color:blue;
+	font-family: Tahoma; /*font chữ*/
+	text-align: justify; /*Căn đều*/
+	text-decoration: underline; /* chữ có gạch chân*/
+	text-indent: 50px; /*Thụt vào đầu dòng*/
+	letter-spacing: 2px;/* khoảng cách giữa các kí tự*/
+	word-spacing: 6px; /*Khoảng cách giua các từ */
+	font-variant: small-caps; /*chữ hoa dạng nhỏ*/
+	border: 1px dashed #f00; /*đường viền*/
+	font-size:2px;
+}
+
+
+

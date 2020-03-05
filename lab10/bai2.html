@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>bai2_lab10</title>
+	<link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+	<form action="" method="POST" enctype="multipart/form-data">
+
+		<!-- họ và tên -->
+		<div class="form_group">
+			<label for="hoten">Họ tên</label>
+			<input type="text" id="hoten" class="form_control">
+		</div>
+
+		<!-- giới tính -->
+		<div class="form_group">
+			<fieldset>
+				<legend>Giới tính:</legend>
+				<input type="radio" name="gioitinh" >Nam 
+				<input type="radio" name="gioitinh">Nữ
+			</fieldset>
+		</div>
+
+		<!-- điểm -->
+		<div class="form_group">
+			<legend>Điểm:</legend>
+			<input type="number" name="" id="" min='0' max="10" step="0.25" 
+			class="form_control">
+		</div>
+		<br>
+
+		<!-- ngày sinh -->
+		<div class="form_group">
+			<legend>Ngày sinh:</legend>
+			<input type="date" name="" id=""  class="form_control">
+		</div>
+		<br>
+
+		<!-- nghề nghiệp -->
+
+		<div class="form_group">
+			Nghề nghiệp:<input list="nghe_nghiep"  class="form_control">
+			<datalist id="nghe_nghiep">
+				<option value="Giáo viên"></option>
+				<option value="Bác sĩ"></option>
+				<option value="Học Sinh"></option>
+				<option value="Làm Ruộng"></option>
+				<option value="Lập trình viên"></option>
+			</datalist>
+		</div>
+
+		<!--Sở thích-->
+		<div class="form_group">
+			<fieldset>
+				<legend>Sở thích</legend><!--Tiêu đề nhóm-->
+				Thể thao <input type="checkbox" name="sothich" id="">
+				Du lịch <input type="checkbox" name="sothich" id="">
+				Mua sắm <input type="checkbox" name="sothich" id="">
+			</fieldset>
+		</div>
+		<br>
+
+		<!--Nhập nhiều dòng văn bản-->
+		<div class="form_group">
+			<label for="">Ghi Chú:</label>
+			<br>
+			<textarea name="" id="" cols="50" rows="10"></textarea>
+			<br>
+			<!--nút-->
+			<input type="submit" value="Đăng Ký" class="form_button">
+			<input type="reset" value="Nhập lại" class="form_button">
+		</div>
+	</form>
+</body>
+
+</body>
+</html>

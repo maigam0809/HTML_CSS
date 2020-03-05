@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+#tong{
+	max-width: 830px;
+	margin: 20px auto;
+	height: 300px;
+	border: 10px solid #670001;
+}
+#so1 a{
+	width: 200px;
+	height: 300px;	float: left;
+	text-align: center;
+	border-right: #670001 solid 10px;
+}
+
+#so2 a{
+	width: 200px;
+	height: 300px;	
+	float: left;
+	border-right: #670001 solid 10px;
+	text-align: center;
+}
+#so3 a{
+	width: 200px;
+	height: 300px;	
+	border-right: #670001 solid 10px;
+	text-align: center;
+	float: left;
+
+}
+#so4 a{
+	width: 200px;
+	height: 300px;	
+	text-align: center;
+	float: left;
+}
+#tong img{
+	margin: 10px 40px;
+}
+ #so1 a:hover{
+	background-color: #76C38F;
+	color: #FFFFFF;
+}
+ #so2 a:hover{
+	background-color: #76C38F;
+	color: #FFFFFF;
+}
+ #so3 a:hover{
+	background-color: #76C38F;
+	color: #FFFFFF;
+}
+ #so4 a:hover{
+	background-color: #76C38F;
+	color: #FFFFFF;
+}
+a{
+	text-decoration: none;
+	color: black;
+}

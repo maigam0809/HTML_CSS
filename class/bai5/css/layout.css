@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+}
+.col {
+    width: 33.3333%;
+    padding: 10px;
+    float: left;
+}
+.sp {
+    border: 1px solid red;
+}

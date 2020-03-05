@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.form_group{
+	margin:10px 0px;
+}
+.form_control{
+	width: 98%;
+	padding:5px;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 3px;
+	line-height:50px;
+}
+form_group label{
+	font-weight: bold;
+	font-variant: small-caps;
+}
+.form_control:focus{
+	background-color:yellow;
+
+}
+

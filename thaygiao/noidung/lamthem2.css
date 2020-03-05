@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+}
+h3{
+	color:blue;
+	text-decoration: underline;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+div{
+	border: 5px solid red;
+}
+.doan1{
+	color:yellow;
+}
+.doan2{
+	color:gray;
+	box-shadow:5px red;
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+}
+.doan3{
+	color:orange;
+	text-align: center;
+}

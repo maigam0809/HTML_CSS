@@ -1,0 +1,229 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-image: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/truong-dan-lap-ta-quang-buu-lien-cap-thcs-thpt-quan-hai-ba-trung-ha-noi.png");
+	background-size: 100% 100%;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+.webpage {
+	max-width: 1400px;
+	margin: 0 auto; 
+}
+
+.webpage header {
+	background-image: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/banner.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 18%;
+	border: 1px solid black;
+}
+
+.webpage header p {
+	background-color: lightgreen;
+	font-size:30px;
+	position: absolute;
+	top: 5px;
+}
+
+.webpage nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	background-color: orangered;
+	text-align: left;
+	font-size: 20px;
+}
+.webpage nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.webpage nav ul li a {
+	display: block;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	color: white;
+	padding: 0 10px;
+}
+
+.webpage nav ul li a:hover {
+	color: yellow;
+}
+
+.webpage nav ul ul {
+	z-index: 2;
+	position: absolute;
+	display: none;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	width: 150px;
+	background-color: lightblue;
+	box-shadow: 0 0 1px gray;
+}
+
+.webpage nav ul ul a{
+	display: block;
+	line-height: 30px;
+	color: orangered;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	padding: 0 10px;
+}
+.webpage nav ul li:hover ul {
+	display: block;
+}
+.webpage nav ul ul a:hover {
+	background-color: lightgray; 
+	color: white;
+}
+
+.language {
+	position: absolute;
+	top: 260px;
+	right: 200px;
+	display: block;
+	list-style: none;
+	border-radius: 3px;
+	text-align: right;
+	font-size: 20px;
+}
+
+.language a {
+	display: inline-block;
+	font-variant: small-caps;
+	text-decoration: none;
+	font-size: larger;
+	color: white;
+	line-height: 20px;	
+	padding: 0 10px;
+}
+
+.language a:hover {
+	color: yellow;
+}
+
+.webpage article{
+	min-height: 800px;
+	width:100%;
+	background-color:white;
+	float:center;
+}
+
+.webpage footer {
+	background-color: #bec4c2;
+	border-top: 3px double orangered;
+	line-height: 50px;
+	font-family: Helvetica; 
+	text-align: center;
+	font-variant: small-caps;
+	clear: both;
+	text-align: center;
+}
+
+.webpage .menu-2 {
+	position: absolute;
+	padding: 2px;
+	margin: 1px;
+	list-style: none;
+	border-radius: 2px;
+	box-shadow: 0 0 2px gray;
+}
+
+.webpage .menu-2 li {
+	text-align: center;
+	font-size: 25px;
+	height: 30px;
+	background-color: green;
+	color: white;
+}
+
+.webpage .menu-2 a{
+	background: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/icon /tenor.gif") no-repeat 10px center;
+	display: block;
+	border-bottom: 1px orangered;
+	color: orangered;
+	font-variant: small-caps;
+	font-size: larger;
+	text-decoration: none;
+	padding: 8px 5px 8px 30px;
+
+}
+
+.webpage .menu-2 a:hover{
+	background: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/ralph-hood_owler_20160227_082625_large.gif") no-repeat 10px center;
+	border-bottom: 1px dotted white;
+	color: orangered;
+	background-color: orangered;
+	color: white;
+	font-weight: bold
+}
+
+
+.webpage article p {
+	font-size: 20px;
+	color: white;
+	background-color: blue;
+	max-width: 200px;
+	max-height: 400px;
+}
+
+.webpage .home1 {
+	position: absolute;
+	top: 300px;
+	left: 400px;
+}
+
+.webpage .home1 .text {
+	background-color: green;
+	color: white;
+}
+
+.webpage .home2 {
+	position: absolute;
+	top: 350px;
+	right: 230px;
+}
+
+.webpage .home3{
+	position: absolute;
+	top: 500px;
+	left: 400px;
+}
+
+.webpage .home3 .text {
+	font-size: 20px;
+	background-color: green;
+	color: white;
+}
+
+.webpage .home3 ul a{
+	background: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/icon /tenor.gif") no-repeat 10px center;
+	display: inline-block;
+	border-bottom: 1px orangered;
+	color: orangered;
+	font-variant: small-caps;
+	font-size: larger;
+	text-decoration: none;
+	padding: 8px 5px 8px 30px;
+
+}
+
+.webpage .home3 ul li {
+	display: block;
+}
+
+.webpage .home3 ul a:hover{
+	background: url("/Users/macbook/Downloads/Tài liệu Fpoly/HTML&CSS/Ảnh/ralph-hood_owler_20160227_082625_large.gif") no-repeat 10px center;
+	border-bottom: 1px dotted white;
+	color: orangered;
+	background-color: orangered;
+	color: white;
+	font-weight: bold
+}
+

@@ -1,0 +1,19 @@
+table,th,td{
+	border: 5px solid red;
+	padding: 5px 15px;
+}
+table{
+	border-collapse: collapse; /*để bỏ đường viền đôi*/
+}
+thead tr{
+	background-color: orange;
+	color:blue;
+}
+tbody tr:nth-child(2n+1){
+	background-color: green;
+	color:white;
+}
+tbody tr:nth-child(2n){
+	background-color: black;
+	color:white;
+}

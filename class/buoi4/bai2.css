@@ -1,0 +1,61 @@
+.container{
+	width:900px;
+	margin:auto;
+	/*position: relative;*/
+
+}
+.box1,.box2,.box3,{
+height:90px;
+}
+.box1{
+background-color: red;
+}
+.box2{
+background-color: blue;
+}
+.box3{
+background-color: black;
+}
+/*Position dùng để định vị vị trí cho box model 
+position cod 4 giá trị
+1.static mặc định
+2.absolute định vị trí một cách tuyệt đối
+3.relative định vị trí một cacgs tương đối
+4.fixed định vị trí cố định*/
+/*định vị vị trí theo cái thẻ cha mà được định vị */
+.box3{
+	position:absolute;
+	top:50px;
+    right:0px;
+    z-index: 1;
+}
+ /*sử dụng relative cho box2
+ định vị theo vị trí đang đứng*/
+.box2{
+	position: relative;
+	top:30px;
+	left:-20px;
+	z-index: 2;
+
+}
+/*định vị trí cho box1 cho sử dụng fixe*/
+.box1{
+position: fixed;
+top:0px;
+right:0px;
+width:600px;
+height:500px;
+}
+.box1 div{
+	position:absolute;
+	top:-40px;
+	left:0;
+	height:40px;
+	background: green;
+	cursor:pointer;
+}
+
+.box4{
+	height:300px;
+}
+

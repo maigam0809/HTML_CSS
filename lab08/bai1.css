@@ -1,0 +1,38 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	max-width: 900px;
+	margin: auto;
+}
+.menu_ngang ul li{
+	display:inline-block;
+	position:relative;
+
+}
+.menu_ngang ul li a{
+	display: block;
+	text-align:none;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: larger;
+	color:white;
+	padding:0 10px;
+	line-height: 40px;
+
+}
+.menu_ngang ul{
+	padding:0px;
+	margin:0px;
+	list-style: none;
+	border-radius: 3px;
+	background-color: orangered;
+	text-align: center;
+}
+.menu_ngang ul li a:hover{
+	background-color: black;
+	display: inline-block;
+	color:yellow;
+
+}

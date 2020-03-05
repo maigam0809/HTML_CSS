@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 900px;
+	margin:0 auto;
+	/*background-color: gray;*/
+}
+.header img{
+width:100%;
+vertical-align: middle; /*căn giữa cho hình ảnh*/
+
+}
+/*Css cho menu*/
+.nav{
+	line-height: 40px;
+	height: 40px;
+	background-color: orange;
+
+}
+.nav ul{
+	float:left;
+}
+.nav ul li{
+	display: inline-block;
+
+}
+.nav ul a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 15px;
+	font-variant: small-caps;
+
+}
+.nav  ul a:hover{
+	background-color: #feca57;
+
+}
+.form{
+	float:right;
+}
+ /*Css cho aside*/
+ .aside{
+ 	float:left;
+ 	width: 25%;
+ 	
+
+ }
+ .aside ul {
+ 	list-style: none;
+ }
+.aside ul li{
+	border: 1px solid #ccc;
+	padding: 0 5px;
+	margin: 5px 0;
+	line-height: 45px;
+}
+.aside li a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+.aside li a:hover{
+	color: red;
+}
+ /*css cho aside*/
+.acticle{
+	float:left;
+	width: calc(75% - 15px);
+	margin-left:10px;
+}
+.col{
+	display: block;
+	margin-top: 0 -10px;
+	float:left;
+	width: 33.3%;
+
+}
+.product{
+	padding: 10px;
+	margin: 10px 10px;
+	border: 1px solid #ccc;
+
+}
+.product a{
+	font-size: 14px;
+	color:#000;
+}
+.product img{ /*xử lí ảnh nếu quá to với kích thươccs*/
+	width: 98%;
+}
+.clear{
+	clear:both;
+}
+.footer{
+	width: 100%;
+	height:80px;
+	border-top: 10px double orange;
+	text-align: center;
+	background-color: #48dbfb;
+
+}

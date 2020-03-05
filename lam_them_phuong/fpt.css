@@ -1,0 +1,246 @@
+body{
+	background-color: #93C2F1;
+	margin:0px;
+	padding:0px;
+
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+.header{
+	max-width: 1200px;
+	margin: auto;
+}
+header{
+	background-color: #334657;
+	height: 40px;
+	color: red;
+}
+.chaomung{
+	float: left;
+	display: block;
+	color: #fff;
+	padding: 10px 15px 10px;
+	font-size: 20px;
+}
+.dangnhap{
+	float: left;
+	display:block;
+	color: #fff;
+	padding: 10px 15px 10px;
+	font-size: 20px;
+	color: #FFBF00;
+}
+.so_do_trang{
+	float: left;
+	display: block;
+	color: #fff;
+	padding: 10px 0px ;
+	font-size: 20px;
+	color: #FFBF00;
+}h2{
+	height: 340PX;
+	width: 25%;
+	background-color: #0B2161;
+	float: right;
+}
+nav{
+	height: 340px;
+	width: 300px;
+	float: left;
+}
+.h3{
+	height: 70px;
+	background-color:#7D9FCC;
+	width: 75%;
+	float: right;
+	float: top;
+
+}
+#trangchu{
+	float: left;
+	display: block;
+	padding-top: 11px;
+	padding-right: 30px;
+	padding-bottom: 11px;
+	padding-left: 10px;
+	text-decoration: none;
+	font-size: 30px;
+
+}
+
+.h4{
+	height: 270px;
+	background-color: red;
+	width: 75%;
+	float: right;
+}
+.noidung{
+	height: 1550px;
+	background-color: #D8D8D8;
+}
+.h5{
+	height: 350px; 
+	width: 890px;
+	float:left;
+	background-color: #E9E9E9;
+}
+.anh{
+	border: 2;
+	padding: 5px 5px 5px;
+	width: 280px;
+
+}
+.lienket{
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+h1{
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+
+}
+article{
+	632041	
+	height:775px;
+	width: 310px;
+	background-color: #ABA9AA;
+	float: right;
+
+}
+.bao{
+	border: 1px solid #D0D0D0;
+	height: 205px;
+}
+.anharticle{
+	padding-right: 10px;
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+
+}
+.chuarticle{
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 37px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+.h61{
+	background-image: url("bg.jpg");
+	background-size:100% 100%;
+	height:250px;
+	width: 310px;
+	background-color:#366595;
+	padding-top: 20px;
+
+}
+.gocnhin{
+	font-family:Arial Rounded MT Bold ;
+	padding-left: 10px;
+	color: #770082;
+	font-size: 20px;
+}
+.sukien{
+	padding-left: 10px;
+	text-decoration: none;
+}
+.is{
+	padding-left: 14px;
+	color:#4F5B6C;
+	font-size:15px;
+}
+.xemthem{
+	font-size: 20px;
+	color: #E17535;
+	text-decoration: none;
+}
+}
+.tong{
+font-size: 25px;
+color: red;
+}
+.h62{
+height: 525px;
+width: 310px;
+background-color: #ABA9AA;
+}
+.h7{
+height: 1200px;
+background-color:#D0D0D0;
+width: 890px;
+float:left;
+}
+.h8{
+background-image: url("poster.jpg");
+background-size:100% 100%;
+height: 756px;
+width: 310px;
+float: right;
+background-color: #DAD8D9;
+}
+footer{
+
+background: #14293E;
+height: 130px;
+clear: both;
+color: #FFFFFF;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+}
+.ket{
+line-height:50px;
+color: #FFDA00;
+text-align:right;
+font-variant:small-caps;
+clear:both;
+margin-bottom: 0px;
+margin-top: 100px;
+
+padding-right: 10px;
+
+}
+.h2-icon{
+margin-top: 0px;
+margin-left: 20px;
+margin-bottom: 48px;
+padding-right: 2px;
+padding-top: 2px;
+height: 67px;
+width: 70px;
+font-size: 30px;
+float: left;
+background-color: #13273B;
+transition: 0.4s;
+}
+.h2-icon:hover{
+background-color: red;
+margin-top: -20px;
+transition: 0.6s;
+}
+
+a#trangchu:link {
+color: green;
+}
+
+/* visited link */
+a#trangchu:visited {
+color: #FFFF00;
+}
+
+/* mouse over link */
+a#trangchu:hover {
+color: red;
+}
+a:hover {
+color: red;
+}
+
+/* selected link */
+a#trangchu:active {
+color: yellow;
+}

@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+	width: 100%;
+	margin: 50px auto;
+	background: #ddd;
+}
+form {
+	padding-bottom: 30px;
+	width: 500px;
+    margin: 0 auto;
+    background: #eaeaea;
+}
+
+.form_group{
+	width: 100%;
+}
+
+.top {
+	margin-bottom: 30px;
+}
+.form_control{
+	width: 50%;
+	padding: 0 15px;
+}
+
+
+input,
+textarea {
+	padding: 12px 16px;
+	width: 100%;
+	border: none;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+	outline: none !important;
+	border:2px solid #000;
+	
+}
+
+.form_control_name{
+	float: left;
+}
+.form_control_email{
+	float:right;
+}
+.form_group label{
+	font-weight: bold;
+	font-family: Arial;
+	display: block;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 3∂4px;
+	font-family: Arial;
+	padding: 20px 15px;
+}
+.bottom {
+	padding: 0 15px;
+}
+.button {
+	text-align: right;
+	padding: 0 15px;
+}
+.form_button{
+	width: auto;
+	margin-top: 20px;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #00BCD4;
+    color:#fff;
+}
+.form_button:hover{
+    color:darkgray;
+}

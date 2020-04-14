@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.form{
+	margin: 10px auto;
+}
+
+.id, .pw{
+	display: block;
+}
+
+.format{
+	margin: 10px 10px;
+}
+
+.rong{
+	width: 200px;
+	margin: 5px 0;
+}

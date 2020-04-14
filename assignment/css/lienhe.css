@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.lienhe{
+	width: 515px;
+	box-sizing: border-box;
+	/*border: 1px solid gray;*/
+	/*border-radius: 5px;*/
+}
+
+.lienhe > .tieude > h3{
+	text-align: center;
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+.lienhe > form{
+	/*margin: 30px auto;*/
+}
+.lienhe > form > input{
+	padding: 10px;
+	width: 450px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid gray;
+}
+
+.lienhe > form > textarea{
+	padding: 10px;
+	width: 450px;
+	border-radius: 10px;
+	margin-bottom: 8px;
+}
+
+form > button{
+	padding: 5px;
+	background-color: #33ffcc;
+	color: red;
+	float: right;
+	margin-right: 10px;
+}
+
+.chuy{
+	clear: both;
+	text-align: center;
+}
+
+.bando{
+	margin-top: 20px;
+}

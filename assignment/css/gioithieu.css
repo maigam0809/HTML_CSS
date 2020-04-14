@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.gioithieu{
+	width: 515px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.gioithieu > .tieude{
+	background-color: #006699
+}
+
+.gioithieu > .tieude > h3{
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.gioithieu > .picture{
+	margin: 10px 10px;
+}
+
+.gioithieu > .picture > img{
+	width: 100%;
+}
+
+.gioithieu > .giaithich{
+	text-align: center;
+	color: green;
+	font-weight: bold;
+}
+.gioithieu > span{
+	width: 90%;
+	display: block;
+	text-align: justify;
+	padding: 10px;
+	margin: 0 auto;
+}
+

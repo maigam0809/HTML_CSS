@@ -8,31 +8,23 @@
 }
 .menu_ngang ul li{
 	display:inline-block;
-	position:relative;
-
 }
 .menu_ngang ul li a{
-	display: block;
 	text-align:none;
 	text-decoration: none;
 	font-variant: small-caps;
 	font-size: larger;
 	color:white;
-	padding:0 10px;
+	padding:0 5px;
 	line-height: 40px;
 
 }
 .menu_ngang ul{
-	padding:0px;
-	margin:0px;
-	list-style: none;
-	border-radius: 3px;
 	background-color: orangered;
 	text-align: center;
 }
 .menu_ngang ul li a:hover{
-	background-color: black;
-	display: inline-block;
-	color:yellow;
-
+	display: inline-block;/*khi hover thì nó tạo thành khối*/
+	background-color:#fff;
+	color:black;
 }

@@ -1,0 +1,355 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1150px;
+	min-height: 1000px;
+	margin: auto;
+}
+
+.header{
+}
+
+.top{
+	width: 100%;
+	height: 35px;
+	background-color: #006699;
+}
+
+.top > .login{
+	float: left;
+	color: white;
+	font-weight: bold;
+	margin: 10px 10px;
+}
+
+.top > .search{
+	float: right;
+}
+
+.search input{
+	width: 200px;
+	font-size: 13px;
+	padding: 8.5px 5px;
+}
+
+.banner{
+	background-image: url('../image/1.PNG');
+	background-size: 100% 100%;
+	height: 188px;
+}
+
+/*.........bắt đầu menu.........*/
+
+.menu{
+	background-color: #006699;
+	height: 40px;
+	text-align: center;
+}
+.menu > ul > li{
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.menu > ul > li > a{
+	text-decoration: none;
+	line-height: 40px;
+	color: white;
+	font-weight: bold;
+	padding: 0 10px;
+}
+
+.menu > ul > li:hover{
+	background-color: #33ccff
+
+}
+
+/*...........kết thúc menu...........*/
+
+.left{
+	width: 30%;
+	min-height: 800px;
+	float: left;
+	/*border-left: 1px solid gray;*/
+	box-sizing: border-box;
+}
+
+.center{
+	float: left;
+	width: 45%;
+	/*background-color: #cccccc;*/
+	min-height: 800px;
+}
+
+iframe[name=page]{
+	width: 100%;
+	min-height: 1000px;
+}
+
+.conten{
+	border: 1px solid gray;
+	margin-top: 10px;
+	min-height: 1000px;
+	background-color: #ffffcc;
+	
+}
+
+.right{
+	float: left;
+	width: 25%;
+	min-height: 800px;
+	/*border-right: 1px solid gray;*/
+	box-sizing: border-box;
+	/*background-color: #ccffff;*/
+}
+
+.footer{
+	clear: both;
+	background-color: #ff3333;
+	min-height: 80px;
+}
+
+/*..........bắt đầu left........*/
+
+.left > .sodo{
+	margin: 0 10px 10px 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.left > .sodo > .tieude{
+	background-color: #006699
+}
+
+.left > .sodo > .tieude > h3{
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.left > .sodo > ul > li{
+	list-style: none;
+	border-bottom: 1px solid gray;
+}
+
+.left > .sodo > ul > li > a{
+	text-decoration: none;
+	line-height: 38px;
+	margin-left: 10px;
+}
+
+.left > .lienket{
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+.left > .lienket > .website{
+	background-color: #00ff33;
+	height: 38px;
+}
+
+.left > .lienket > .website > h3{
+	line-height: 38px;
+	color: white;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.left > .lienket > ul > li{
+	border-bottom: 1px solid gray;
+	list-style: none;
+}
+
+.left > .lienket > ul > li > a{
+	text-decoration: none;
+	line-height: 38px;
+	margin-left: 10px;
+}
+
+.left > .truycap{
+	margin: 10px 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.left > .truycap > .gray{
+	background-color: #cccccc;
+	height: 25px;
+}
+
+.left > .truycap > div{
+	border-bottom: 1px solid gray;
+	line-height: 38px;
+
+}
+
+.left > .truycap > div > .b{
+	
+	float: right;
+	margin-right: 10px;
+}
+
+.left > .truycap > div > .a{
+	
+	clear: both;
+	margin-left: 25px;*/
+}
+
+.left > .truycap > .maunen{
+	background-image: url('../image/icon2.png');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	background-size: 15px 15px;
+}
+
+/*...........xong left..........*/
+
+/*...........bắt đầu center........*/
+.center > .tinnong{
+	margin: 0 10px 10px 5px;
+	min-height: 500px;
+	/*background-color: #66cccc;*/
+	border: 1px solid gray;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.center > .tinnong > .h3{
+	background-color: #006699;
+}
+
+.center > .tinnong > .h3 > h3{
+	padding: 10px;
+	color: white;
+}
+
+.center > .tinnong > .left-center{
+	float: left;
+	margin: 15px 7.5px;
+	background-color:#006699;
+	min-height: 100px;
+	width: 230px;
+	/*box-sizing: border-box;*/
+	border: 1px solid blue;
+}
+
+.center > .tinnong > .right-center{
+	float: right;
+	margin: 15px 7.5px;
+	/*background-color: #99cc66;*/
+	min-height: 100px;
+	width: 230px;
+}
+
+
+.left-center > .picture > img{
+	width: 100%;
+	height: 180px;
+	/*margin: 5px 0px;*/
+}
+
+.left-center > .info{
+	background-color:  
+}
+
+.left-center > .info > span{
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+.cuthe{
+	margin-bottom: 20px;
+	border-bottom: 1px solid gray;
+}
+
+.right-center > .cuthe > .icon > img{
+	width: 63px;
+	height: 35px;
+}
+
+.icon , .thongtin{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.tt > span{
+	font-weight: bold;
+	font-size: 15px;
+	color: blue;
+}
+
+.center > .anh > img{
+	width: 100%;
+}
+
+.center > .thuvienanh{
+	border: 1px solid gray;
+	border-radius: 5px ;
+	width: 500px;
+}
+
+/*.center > .thuvienanh > a{
+	width: 90%;
+	margin: 5px auto;
+}*/
+
+.center > .thuvienanh > a > img{
+	width: 98%;
+	margin: 5px 5px;
+}
+
+.center > .thuvienanh > .tieudetren{
+	background-color: #006699;
+}
+
+.center > .thuvienanh > .tieudetren > h3{
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+/*........kết thúc center.........*/
+/*........Băt đầu right...........*/
+
+.right > .chamngon{
+	margin: 0 10px 10px 0px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.right > .chamngon > .tieude{
+	background-color: #006699
+}
+
+.right > .chamngon > .tieude > h3{
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.right > .chamngon > .anh{
+	margin: 10px 10px;
+}
+
+.right > .chamngon > .anh > img{
+	width: 100%;
+}
+
+
+/*........kết thúc right..........*/
+.footer > img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+

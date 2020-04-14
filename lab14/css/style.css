@@ -24,7 +24,6 @@ vertical-align: middle; /*căn giữa cho hình ảnh*/
 }
 .nav ul li{
 	display: inline-block;
-
 }
 .nav ul a{
 	display: block;

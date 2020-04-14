@@ -1,0 +1,38 @@
+strong{
+	color: brown;
+}
+.c1{
+	color: red;
+}
+.c2{
+	color: blue;
+}
+.c3{
+	color: green;
+}
+em{
+	font-variant: small-caps;
+	font-size: 20px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+h2{
+	color: white;
+	text-shadow: 0 0 5px red;
+}
+body{
+	text-align: center;
+}
+.menu>a{
+	font-variant: small-caps;
+	color: blue;
+	text-decoration: none;
+}
+.menu>a:visited{
+	color: green;
+}
+.menu>a:hover{
+	color: red;
+	text-decoration: underline;
+}

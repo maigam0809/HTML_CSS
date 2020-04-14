@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 980px;
+	margin: auto;
+}
+
+/*bắt đầu banner*/
+
+.banner{
+	position: relative;
+}
+
+.banner > img{
+	width: 100%;
+}
+
+.banner > .menutop{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #cc0066;
+	border-bottom-left-radius: 15px;
+}
+
+.menutop > a{
+	text-decoration: none;
+	color: white;
+	line-height: 40px;
+	padding: 15px;
+}
+
+/*bắt đầu meneu*/
+
+.menu{
+	text-align: center;
+	background-color: #cc0066;
+}
+
+.menu > ul{
+	list-style: none;
+}
+
+.menu > ul > li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.menu > ul > li > a{
+	line-height: 30px;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.menu ul li a:hover{
+	background-color: #0033ff; 
+}
+/*bắt đầu content*/
+
+.content{
+	margin-top: 5px;
+}
+.content .aside{
+	width: 25%;
+	float: left;
+}
+
+.aside ul{
+	list-style: none;
+
+}
+
+.aside ul li{
+	margin-bottom: 5px;
+	border: 1px solid #cc0066;
+	padding: 15px;
+}
+
+.aside ul li a{
+	text-decoration: none;
+}
+
+.noidung{
+	margin-left: 15x;
+	width: calc(75% - 15px);
+	float:right;
+}
+.col{
+	margin:0 -5px;
+}
+
+.product{
+	width: calc(33.33% - 10px);
+	margin: 0 5px 5px;
+	text-align: justify;
+	float:left;
+}
+
+.col .product img{
+	width: 100%;
+}
+
+.product a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.product p{
+	text-align: justify;
+	padding: 5px 0;
+}
+
+.clear{
+	clear: both;
+}
+.footer{
+	line-height: 40px;
+	background-color: #cc0066;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+
+

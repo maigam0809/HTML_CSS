@@ -1,0 +1,22 @@
+h3{
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+}
+.p1,.p2{
+	text-align: justify;
+}
+.p1{
+	color: red;
+}
+.p2{
+	color: green;
+}
+.d2{
+	border: 2px solid green;
+	text-align: center;
+}
+.d1{
+	font-style: italic;
+	color:gray;
+}

@@ -8,60 +8,45 @@
 }
 .menu_ngang ul li{
 	display:inline-block;
-	position:relative;
 
 }
 .menu_ngang ul li a{
-	display: block;
-	text-align:none;
 	text-decoration: none;
 	font-variant: small-caps;
 	font-size: larger;
 	color:white;
 	padding:0 10px;
 	line-height: 40px;
-
 }
 .menu_ngang ul{
-	padding:0px;
-	margin:0px;
 	list-style: none;
-	border-radius: 3px;
 	background-color: orangered;
 	text-align: center;
 }
 .menu_ngang ul li a:hover{
-	background-color: black;
 	display: inline-block;
+	background-color: black;
 	color:yellow;
 
 }
 /*menu con dọc*/
 .menu_ngang ul ul{
-	position:absolute;
+	position:absolute;/*là con của ul*/
 	display: none;
-	padding: 0px;
-	margin: 0px;
 	list-style: none;
-	border-radius: 3px;
-	width: 200px;
+	width: 100px;
 	background-color: white;
-	box-shadow: 0 0 1px gray;
 
 }
 .menu_ngang ul ul a{
-	display: block;
-	line-height: 30px;
+	display: block;/*theo bảng*/
+	line-height: 40px;
 	color:blue;
-	width:100px;
 	font-variant: small-caps;
 	font-size: larger;
-	padding:0 10px;
-
-
 }
 .menu_ngang ul li:hover ul{
-	display: block;
+	display:block;
 	background-color: pink;
 	color:white;
 }

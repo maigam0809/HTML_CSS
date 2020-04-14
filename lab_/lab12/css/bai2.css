@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.video{
+	width: 1000px;
+	margin: 25px auto;
+}
+.trinhchieu{
+	float: left;
+	position: fixed;
+	width: 750px;
+}
+
+.list{
+	float: right;
+	width: 240px;
+}
+
+.list > a > img{
+	width: 200px;
+	margin-bottom: 15px;
+}
+
+iframe[name=page]{
+	width: 100%;
+	min-height: 400px;
+}
+
+video{
+	width: 100%;
+}

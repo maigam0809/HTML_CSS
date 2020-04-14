@@ -55,9 +55,9 @@ body {
 
 .post__title {
   color: #2196f3;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 22px;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 
 .post__desc {

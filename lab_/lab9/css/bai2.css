@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.form{
+	width: 500px;
+	margin: 20px 10px;
+}
+
+.info{
+	display: block;
+	font-variant: small-caps;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.rong{
+	margin-bottom: 10px;
+	width: 300px;
+	padding: 3px 3px;
+}
+
+hr{
+	margin: 5px 0;
+	width: 300px;
+}
+
+.area{
+	padding: 5px 5px;
+}

@@ -1,0 +1,58 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.col-25{
+	width: 25%;
+	float: left;
+}
+
+.mobile{
+	border-radius: 10px;
+	box-shadow: 0 0 5px gray;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	position: relative;
+}
+
+.mobile > .name{
+	font-variant: small-caps;
+	color: orangered;
+}
+
+.mobile > .image{
+	max-width: 98%;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.mobile > .price{
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	font-family: Impact;
+	font-size: 25px;
+	color: orange;
+}
+
+.mobile > .icon{
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	width: 40px;
+}
+
+.mobile > .icon > img{
+	width: 30px;
+	height: 30px;
+}
+
+.mobile > .new-icon{
+	position: absolute;
+	top: 5px;
+	right:5px;
+	width: 50px;
+	height: 50px;
+}

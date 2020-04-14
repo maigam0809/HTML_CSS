@@ -1,0 +1,17 @@
+div{
+	margin: auto;
+	text-align: center;
+}
+p>img{
+	width: 20%;
+	height: 150px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: yellow;
+	box-shadow: 0 0 5px green;
+}
+p>img:hover{
+	box-shadow: 0 0 20px red;
+	background-color: #0ff3f6;
+}

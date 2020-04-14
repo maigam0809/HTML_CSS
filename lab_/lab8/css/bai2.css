@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu > ul > li{
+	display: inline-block;
+	position: relative;
+}
+
+.menu > ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	background-color: orangered;
+	text-align: center;
+}
+
+.menu > ul > li > a{
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: large;
+	color: white;
+	padding: 0 10px;
+	line-height: 40px;
+}
+ .menu > ul > li > a:hover{
+	color: yellow;
+	font-weight: bold;
+ }
+
+ .sub-menu{
+ 	position: absolute;
+ 	margin: 0;
+ 	padding: 0;
+ 	border-radius: 5px;
+ 	box-shadow: 0 0 5px orangered;
+ 	list-style: none;
+ 	width: 150px;
+	display: none;
+ }
+
+ .menu > ul > li:hover > .sub-menu{
+ 	display: block;
+ }
+
+ .sub-menu > li > a{
+ 	display: block;
+ 	line-height: 30px;
+ 	border-bottom: 1px dotted orangered;
+ 	text-decoration: none;
+ 	font-variant: small-caps;
+ 	padding-left: 20px;
+ 	background: url('../../lab7/image/icon1.png') no-repeat left center;
+ 	background-size: 15px 15px;
+ 	color: orangered;
+ }
+
+ .sub-menu > li > a:hover{
+ 	background: url('../../lab7/image/icon2.png') no-repeat left center;
+ 	background-size: 15px 15px;
+ 	color: red;
+ 	font-weight: bold;
+ 	background-color: green;
+ }

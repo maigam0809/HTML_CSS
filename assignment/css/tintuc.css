@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.tintuc{
+	width: 515px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.tintuc > .tieude{
+	background-color: #006699
+}
+
+.tintuc > .tieude > h3{
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.tintuc > .thongtin > .picture{
+	margin: 10px;
+}
+.tintuc > .thongtin > .picture > img{
+	width: 100%;
+}
+
+.tintuc > .thongtin{
+	padding: 10px;
+	border-bottom: 1px solid gray;
+}
+
+.tintuc > .thongtin > .info{
+	font-weight: bold;
+	color: blue;
+}

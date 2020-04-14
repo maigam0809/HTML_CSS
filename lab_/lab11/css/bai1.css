@@ -1,0 +1,27 @@
+table , th, td{
+	border: 1px solid green;
+	padding: 5px 15px;
+	text-align: center;
+
+}
+
+table{
+	border-collapse: collapse;
+	margin: 10px auto;
+}
+
+td, th{
+	font-weight: bold;
+}
+
+.vietnam, .kenh{
+	color: red;
+}
+
+.first{
+	background-color: #00cc33;
+}
+
+.second{
+	background-color: #ccff99;
+}

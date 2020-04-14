@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.sent{
+	width: 300px;
+	margin: 10px 10px;
+}
+.form-group{
+	margin: 10px 0;
+}
+
+.a1{
+	float: left;
+	width: 140px;
+}
+
+.a2{
+	float: right;
+	width: 140px;
+}
+
+.a3{
+	width: 100%;
+}
+
+.a3 label{
+	display: block;
+}
+
+.form-control1 , .form-control2{
+	width: 140px;
+	padding: 5px 5px;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.form-control{
+	width: 100%;
+	padding: 5px 5px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+.form-control:focus{
+	border: 2px solid black;
+}
+
+.form-control1:focus{
+	border: 2px solid black;
+}
+
+.form-control2:focus{
+	border: 2px solid black;
+}
+
+.form-button{
+	float: right;
+}
+
+.form-button .button{
+	padding: 8px 30px;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	background-color: #4cf5df;
+	color: white;
+	font-weight: bold;
+}
+
+.sent{
+	margin: auto;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai2</title>
+	<link rel="stylesheet" href="../css/bai2.css">
+</head>
+<body>
+	<form action="" method="post" enctype="multipart/form-data" class="form">
+		<label for="hoten" class="info">Họ và tên:</label>
+		<input id="hoten" class="rong" type="text">
+		<br>
+		<label for="gt" class="">Giới tính:</label>
+		<label class="gt" for=""><input name="gender" type="radio" checked="">Nam</label>
+		<label class="gt" for=""><input name="gender" type="radio">Nữ</label>
+		<br>
+		<label for="" class="info">Hình ảnh:</label>
+		<label for="">
+			<input type="file">
+		</label>
+		<br>
+		<label class="info" for="">Quốc tịch:</label>
+		<select class="rong" name="" id="">
+			<option value="">United States</option>
+			<option value="">Vietnames</option>
+			<option value="">Japanes</option>
+			<option value="">Chinese</option>
+		</select>
+		<br>
+		<div class="info">Sở thích:</div>
+		<label for=""><input name="hobby" type="checkbox" value="1">Thể thao</label>
+		<label for=""><input name="hobby" type="checkbox" value="2">Du lịch</label>
+		<label for=""><input name="hobby" type="checkbox" value="3">Âm nhạc</label>
+		<label for=""><input name="hobby" type="checkbox" value="4">Thực</label>
+		<div class="info">Ghi chú</div>
+		<textarea class="area" name="" id="" cols="40" rows="5"></textarea>
+		<hr>
+		<button type="submit">Đăng ký</button>
+		<button type="reset">Nhập lại</button>
+	</form>
+</body>
+</html>

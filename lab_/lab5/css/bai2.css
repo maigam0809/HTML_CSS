@@ -1,0 +1,30 @@
+
+.mobile{
+	width: 25%;
+	float: left;
+}
+.product{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px gray;
+	text-align: center;
+}
+.product img{
+	width: 130px;
+	height: 155px;
+}
+.name{
+	font-size: large;
+	font-variant: small-caps;
+	color: blue;
+}
+.product .price{
+	color: red;
+	font-weight: bold;
+	font-size: large;
+}
+.product .price del{
+	color: gray;
+}
+

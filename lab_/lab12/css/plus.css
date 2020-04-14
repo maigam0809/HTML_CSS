@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.list{
+	width: 900px;
+	height: 300px;
+	background-color: #660000;
+	margin: 200px auto;
+}
+
+.list .box{
+	float: left;
+	width: 200px;
+	height: 250px;
+	margin-left:20px;
+	margin-top: 25px;
+	background-color: green;
+}
+
+.list .box:hover{
+	background-color: #cccc33;
+	color: white;
+}
+
+.list > .box > .pt{
+	width: 80px;
+	height: 80px;
+	background-color: red;
+	margin: 10px auto;
+	box-sizing: border-box;
+}
+
+.list > .box > .pt > img{
+	width: 80px;
+	height: 80px;
+}
+
+.list > .box > .tieude{
+	width: 100px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.list > .box > .info{
+	/*background-color: black;*/
+	width: 120px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.list > .box2{
+	background-color: white;
+}
+
+
